@@ -1,0 +1,8 @@
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine On
+
+DirectoryIndex obie/views/app.php
+RewriteRule ^b([0-9]+)/$ obie/views/app.php [L]
+
+ErrorDocument 404 obie/views/error404.php

@@ -1,0 +1,17 @@
+html, body{
+  background-color: black;
+  color: white;
+}
+
+
+
+.bgColor{
+  background: #12C6C7;
+}
+.txtColor{
+  color: #12C6C7;
+}
+.text__speaker{
+  color: #12C6C7;
+  font-size: 30px;
+}
